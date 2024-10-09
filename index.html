@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The most comfortable City in Australia</title>
+
+    <script src="https://cdn.jsdelivr.net/npm/vega@5"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-lite@5"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            width: 80%;
+            margin: 40px auto;
+            padding: 20px;
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+        }
+
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+
+        .visualization {
+            border: 2px solid #4CAF50;
+            padding: 10px;
+            border-radius: 10px;
+            background-color: #fff;
+            margin-top: 20px;
+        }
+
+        .zoom-controls {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        #vis {
+            margin: 0 auto;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>The most comfortable City in Australia</h1>
+
+    <div class="visualization">
+        <div id="vis"></div>
+    </div>
+
+</div>
+
+<div class="container">
+    <h1>The most comfortable City in Australia</h1>
+
+    <div class="visualization">
+        <div id="vis2"></div>
+    </div>
+
+</div>
+
+<div class="container">
+    <h1>The most comfortable City in Australia</h1>
+
+    <div class="visualization">
+        <div id="vis3"></div>
+    </div>
+
+</div>
+
+<div class="container">
+    <h1>The most comfortable City in Australia</h1>
+
+    <div class="visualization">
+        <div id="vis4"></div>
+    </div>
+
+</div>
+
+<script src="vis.js"></script>
+
+</body>
+</html>
